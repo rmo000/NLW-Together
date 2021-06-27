@@ -63,3 +63,11 @@ Feito com 💜 by Rocketseat 👋🏻 [Participe da comunidade da Rocketseat](ht
 ---
 
 Milha extra:
+
+- Readme do Github
+- Redirect ao criar a sala para a página de admin
+- Redirect para a página de admin se o criador entrar na sala
+- Logout da página de admin
+- Logout da página Room
+- Implementação da opção "Para enviar uma pergunta, Faça seu login"
+- botão de logoff
