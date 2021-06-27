@@ -45,7 +45,11 @@ export function Home(){
             alert('Room already closed')
             return
         }
-        history.push(`rooms/${roomCode}`)
+        if (roomRef.val().authId === user?.id) {
+            history.push(`admin/rooms/${roomCode}`)
+        } else {
+            history.push(`rooms/${roomCode}`)
+        }
     }
 
     return(
